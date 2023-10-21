@@ -3,7 +3,6 @@ import React, { useRef, useState, useCallback } from 'react'
 const Calculator = () => {
     let [result, setResult] = useState("");
     let [exp, setExp] = useState("");
-    let count = 0;
     let clear = useRef(null);
     let del = useRef(null);
     let percent = useRef(null);
@@ -66,7 +65,7 @@ const Calculator = () => {
         <div>
             <div className='flex flex-col justify-center items-center w-full h-screen bg-[#232323] gap-y-2'>
                 <h1 className='text-purple-500 font-sans text-[2rem]'>Calculator</h1>
-                <div className='flex flex-col justify-center items-center p-4 bg-[#231F20] shadow-sm shadow-black w-[38%] gap-2 smd:w-[38%]'>
+                <div className='flex flex-col justify-center items-center p-4 bg-[#231F20] shadow-sm shadow-black w-[38%] gap-2 smd:w-[38%] ssm:w-[68%] sssm:w-[88%]' >
                     <div className='flex flex-col justify-center items-center bg-purple-600 gap-1 w-[87%] rounded-md '>
                         <div className='flex flex-col gap-2 p-3 w-[100%] text-right h-[5rem]'>
                             <p className='text-right text-white font-sans'>{exp}</p>

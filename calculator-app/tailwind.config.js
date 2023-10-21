@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'sssm': '320px',
+        'sssm': '300px',
         'ssm': '500px',
         'smd': '900px',
         // 'md':'900px',
